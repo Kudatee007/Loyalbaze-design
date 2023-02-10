@@ -1,11 +1,12 @@
 .loyal1 {
-  background-color: #121b27;
+  background-image: url("./img/image\ 2.svg");
+  padding-bottom: 100px;
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px;
+  padding: 25px 100px;
 }
 .btnRequest {
   font-family: "Satoshi";
@@ -19,4 +20,241 @@
   border-radius: 100px;
   border-color: rgba(84, 4, 255, 1) rgba(189, 59, 210, 0.94);
   background-color: #121b27;
+}
+.loyalPage {
+  text-align: center;
+}
+.loyalHeader {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 130%;
+  color: #ffffff;
+  width: 25ch;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+.loyalHeader > span {
+  color: rgba(167, 95, 210, 1);
+}
+.loyalPage > p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fcfcfc;
+  width: 75ch;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.inputName {
+  position: relative;
+  padding-bottom: 20px;
+}
+.inputName > img {
+  position: absolute;
+  top: 15px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.inputName > input {
+  width: 410px;
+  height: 52px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: rgba(18, 27, 39, 1);
+  padding-left: 42px;
+  box-sizing: border-box;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.inputEmail {
+  position: relative;
+}
+.inputEmail > img {
+  position: absolute;
+  top: 15px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.inputEmail > input {
+  width: 410px;
+  height: 52px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: rgba(18, 27, 39, 1);
+  padding-left: 42px;
+  box-sizing: border-box;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.btnAccess {
+  width: 410px;
+  height: 50px;
+  background: linear-gradient(
+    112.92deg,
+    #5404ff 18.35%,
+    rgba(189, 59, 210, 0.94) 71.49%
+  );
+  border-radius: 100px;
+  border: none;
+  margin-top: 25px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.peopleJoined {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding-top: 20px;
+}
+.peopleJoined > h5 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.confirm {
+  background-color: rgba(21, 20, 27, 1);
+  border-radius: 20px;
+  width: 426px;
+  padding: 75px 0px;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 140px;
+  left: 35.3%;
+  display: none;
+}
+.confirm-NX {
+    display: block;
+}
+.confirm > h5 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+.confirm > p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  width: 40ch;
+  margin: 0 auto;
+}
+@media (max-width: 912px) {
+    .loyalHeader{
+        width: 18ch;
+        padding-top: 60px;
+    }
+    .loyalPage > p {
+        width: 60ch;
+    }
+}
+@media (max-width: 768px) {
+    .loyalPage > p {
+        width: 50ch;
+    }
+    
+}
+@media (max-width: 650px) {
+    .loyalPage > p {
+        width: 38ch;
+    }
+    .loyalHeader{
+        width: 15ch;
+    }
+    .nav > img {
+        width: 150px;
+    }
+    .btnRequest {
+        width: 150px;
+    }
+    .nav {
+        padding: 25px 70px;
+    }
+}
+@media (max-width: 541px) {
+    .nav {
+        padding: 25px 40px;
+    }
+    .btnRequest {
+        width: 130px;
+        height: 43px;
+    }
+    .loyalHeader{
+        padding-top: 40px;
+        font-size: 50px;
+    }
+    .loyalPage > p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px) {
+   .inputName > input {
+    width: 80%;
+   }
+   .inputEmail > input {
+    width: 80%;
+   }
+   .btnAccess {
+    width: 60%;
+   }
+}
+@media (max-width: 480px) {
+    .loyalHeader {
+        font-size: 45px;
+    }
+    .loyalPage > p {
+        width: 33ch;
+    }
+    .btnRequest {
+        width: 100px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 350px) {
+    .nav > img {
+        width: 110px;
+    }
+    .btnRequest {
+        width: 70px;
+        font-size: 9px;
+        height: 30px;
+    }
+    .loyalHeader {
+        font-size: 38px;
+    }
+    .loyalPage > p {
+        width: 23ch;
+    }
+}
+@media (max-width: 350px) {
+    .loyalHeader {
+        width: 10ch;
+    }
 }
