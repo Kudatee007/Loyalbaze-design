@@ -142,7 +142,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 22px;
 color: #FFFFFF;
-width: 35ch;
 }
 .baze {
     font-family: 'Satoshi';
@@ -152,6 +151,7 @@ width: 35ch;
     line-height: 22px;
     color: #FFFFFF;
     width: 35ch;
+    text-align: center;
 }
 .line {
     width: 90%;
@@ -179,12 +179,26 @@ footer {
     .loyalDiv1 > p {
         width: 50ch;
     }
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .house > h5 {
+        width: auto;
+        
+    }
 }
 
 @media (max-width: 700px) {
     .loyalDiv1 > p {
         width: 40ch;
     }
+}
+@media (max-width: 600px) {
+   .footer {
+    padding: 10px 30px;
+    box-sizing: border-box;
+   }
 }
 @media (max-width: 540px) {
     .loyalDiv1 > p {
@@ -193,5 +207,17 @@ footer {
     }
     .loyalDiv2 {
         padding: 40px 60px;
+    }
+}
+@media (max-width: 350px) {
+    .loyalDiv2 {
+        padding: 40px 20px;
+    }
+    .loyalDiv1 > p {
+        width: 30ch;
+        font-size: 16px;
+    }
+    .loyalDiv1 > h1 {
+        font-size: 50px;
     }
 }

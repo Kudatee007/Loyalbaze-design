@@ -23,6 +23,7 @@
 }
 .loyalPage {
   text-align: center;
+  position: relative;
 }
 .loyalHeader {
   font-family: "Satoshi";
@@ -135,12 +136,12 @@
 .confirm {
   background-color: rgba(21, 20, 27, 1);
   border-radius: 20px;
-  width: 426px;
-  padding: 75px 0px;
+  width: 446px;
+  padding: 75px 50px;
   box-sizing: border-box;
   position: fixed;
-  bottom: 140px;
-  left: 35.3%;
+  top: 140px;
+  right: 35%;
   display: none;
 }
 .confirm-NX {
@@ -166,6 +167,26 @@
   width: 40ch;
   margin: 0 auto;
 }
+/* @media (max-width: 1200px) {
+    .confirm {
+        left: 33%;
+    }
+} */
+@media (max-width: 1200px) {
+    .confirm {
+        left: 31%;
+    }
+}
+@media (max-width: 1050px) {
+    .confirm {
+        left: 29%;
+    }
+}
+@media (max-width: 950px) {
+    .confirm {
+        left: 26.5%;
+    }
+}
 @media (max-width: 912px) {
     .loyalHeader{
         width: 18ch;
@@ -175,9 +196,17 @@
         width: 60ch;
     }
 }
+@media (max-width: 850px) {
+    .confirm {
+        left: 24%;
+    }
+}
 @media (max-width: 768px) {
     .loyalPage > p {
         width: 50ch;
+    }
+    .confirm {
+        left: 20%;
     }
     
 }
@@ -197,6 +226,10 @@
     .nav {
         padding: 25px 70px;
     }
+    .confirm {
+        left: 20%;
+        width: 380px;
+    }
 }
 @media (max-width: 541px) {
     .nav {
@@ -213,6 +246,10 @@
     .loyalPage > p {
         font-size: 20px;
     }
+    .confirm {
+        left: 15%;
+        width: 380px;
+    }
 }
 @media (max-width: 480px) {
    .inputName > input {
@@ -224,8 +261,14 @@
    .btnAccess {
     width: 60%;
    }
+   .confirm {
+    left: 15%;
+    width: 350px;
 }
-@media (max-width: 480px) {
+.confirm > p {
+    width: 30ch;
+}
+
     .loyalHeader {
         font-size: 45px;
     }
@@ -253,8 +296,33 @@
         width: 23ch;
     }
 }
+@media (max-width: 430px) {
+    .confirm {
+        width: 300px;
+    }
+    .confirm > p {
+        width: 20ch;
+    }
+    .confirm > img {
+        width: 70px;
+    }
+}
+@media (max-width: 390px) {
+    .confirm {
+        width: 280px;
+    }
+}
 @media (max-width: 350px) {
     .loyalHeader {
         width: 10ch;
+    }
+    .confirm {
+        width: 260px;
+    }
+}
+@media (max-width: 300px) {
+    .confirm {
+        width: 240px;
+        left: 9%;
     }
 }

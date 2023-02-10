@@ -55,7 +55,7 @@ const Loyal2 = () => {
           <button className="btnSendReq">Send Request</button>
         </div>
       </div>
-      {/* <footer>
+      <footer>
         <hr className="line"/>
         <div className="footer">
             <div className="house">
@@ -70,7 +70,7 @@ const Loyal2 = () => {
                <h5>+234 903 618 9485</h5>
             </div>
         </div>
-      </footer> */}
+      </footer>
     </div>
   );
 };

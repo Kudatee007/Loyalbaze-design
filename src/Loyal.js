@@ -37,7 +37,6 @@ const Loyal = () => {
           <img src={mailBox} alt="" />
           <input type="text" placeholder="Enter your email address" />
         </div>
-        <button className="btnAccess" onClick={getAccess}>Get early access</button>
         <div className={expand ? "confirm" : "confirm confirm-NX"}>
           <img src={confirm} alt="" />
           <h5>Congratulations</h5>
@@ -46,6 +45,7 @@ const Loyal = () => {
             product. Please check your mail for more information.
           </p>
         </div>
+        <button className="btnAccess" onClick={getAccess}>Get early access</button>
         <div className="peopleJoined">
           <img src={people} alt="" />
           <h5>+57 Joined</h5>
