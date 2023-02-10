@@ -1,0 +1,22 @@
+.loyal1 {
+  background-color: #121b27;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+.btnRequest {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fcfcfc;
+  width: 172px;
+  height: 50px;
+  border-radius: 100px;
+  border-color: rgba(84, 4, 255, 1) rgba(189, 59, 210, 0.94);
+  background-color: #121b27;
+}
